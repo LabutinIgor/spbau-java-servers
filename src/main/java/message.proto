@@ -1,0 +1,6 @@
+option java_package = "ru.spbau.mit";
+option java_outer_classname = "MessageProto";
+
+message Message {
+    repeated int32 number = 1;
+}
